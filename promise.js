@@ -11,7 +11,7 @@ promiseEg()
 */
 
 // Location Finder using Promise
-
+/*
 function isValidLocation(location,time){
     loc = "KPRCAS"
     acutalTime = 2000
@@ -40,3 +40,4 @@ location("KPRCAS",2000).then((a)=>{
 }).catch((b)=>{
     console.log(b)
 })
+*/
