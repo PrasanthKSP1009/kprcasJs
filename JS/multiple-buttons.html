@@ -1,0 +1,28 @@
+<html>
+    <head>
+    </head>
+    <style>
+        button{
+            background-color:black;
+        }
+    </style>
+    <body>
+        <h1>click on the button</h1>
+        <button class='undo red' onclick="red()">click here</button>
+        <button class='undo' onclick="undo()">click here</button>
+    </body>
+    <script>
+        function red() {
+            let redclass = document.getElementsByClassName('red');
+            for(i=0;i<redclass.length;i++){
+            redclass[i].style.backgroundColor = 'red';
+            }
+        }
+        function undo() {
+            let redclass = document.getElementsByClassName('undo');
+            for(i=0;i<redclass.length;i++){
+            redclass[i].style.backgroundColor = 'black';
+            }
+        }
+    </script>
+</html>
